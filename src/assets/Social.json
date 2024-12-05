@@ -1,0 +1,17 @@
+[
+    {
+        "nombre":"Linkedin",
+        "link": "https://www.linkedin.com/in/maximiliano-lucas-martinez-72921a297/",
+        "imagen":"/src/images/linkedin.svg"
+    },
+    {
+        "nombre":"Github",
+        "link": "https://github.com/maxiluma18",
+        "imagen":"/src/images/github.svg"
+    },
+    {
+        "nombre":"Instagram",
+        "link": "https://www.instagram.com/maxxi.martinezz/",
+        "imagen":"/src/images/instagram.svg"
+    }
+]

@@ -1,7 +1,7 @@
 /*! PROJECTS */
 .projects-container {
     padding: 20px;
-    background-color: #000;
+    background-color: #0c0b0b;
     height: 70vh;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .project-item {
-    background-color: #000000;
+    background-color: #0c0b0b;
     border: none;
     border-radius: 8px;
     padding: 10px;
