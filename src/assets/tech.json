@@ -1,15 +1,15 @@
 [
-    { "name": "HTML", "logo": "/public/images/html.png" },
-    { "name": "CSS", "logo": "/public/images/css.png" },
-    {"name":"SCSS", "logo":"/public/images/scss.png"},
-    { "name": "JavaScript", "logo": "/public/images/js.png"},
-    { "name": "React", "logo": "/public/images/react.svg" },
-    { "name": "Vite", "logo": "/public/images/vite.png" },
-    { "name": "Node.js", "logo": "/public/images/node.png "},
-    {"name": "Express", "logo":"/public/images/express.png"},
-    { "name": "MongoDB", "logo": "/public/images/mongo.png" },
-    {"name":"Java", "logo":"/public/images/java.png"},
-    {"name":"JUnit", "logo":"/public/images/junit.png"},
-    { "name": "Firebase", "logo": "/public/images/firebase.png" },
-    { "name": "Git", "logo": "/public/images/git.png" }
+    { "name": "HTML", "logo": "/images/html.png" },
+    { "name": "CSS", "logo": "/images/css.png" },
+    {"name":"SCSS", "logo":"/images/scss.png"},
+    { "name": "JavaScript", "logo": "/images/js.png"},
+    { "name": "React", "logo": "/images/react.svg" },
+    { "name": "Vite", "logo": "/images/vite.png" },
+    { "name": "Node.js", "logo": "/images/node.png "},
+    {"name": "Express", "logo":"/images/express.png"},
+    { "name": "MongoDB", "logo": "/images/mongo.png" },
+    {"name":"Java", "logo":"/images/java.png"},
+    {"name":"JUnit", "logo":"/images/junit.png"},
+    { "name": "Firebase", "logo": "/images/firebase.png" },
+    { "name": "Git", "logo": "/images/git.png" }
 ]

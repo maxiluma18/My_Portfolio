@@ -2,7 +2,7 @@
     {
         "id":1,
         "Nombre": "HumanCare",
-        "imagen":"/public/images/inprocess.jpg",
+        "imagen":"/images/inprocess.jpg",
         "linkRepo": "https://github.com/SusanoJuicio/human-care-repo",
         "linkRepoBK": "https://github.com/SusanoJuicio/humancare-backend",
         "linkPag": "#",
@@ -11,35 +11,35 @@
             "front": [
                 {
                     "nombre": "HTML",
-                    "imagen": "/public/images/html.png"
+                    "imagen": "/images/html.png"
                 },
                 {
                     "nombre": "CSS",
-                    "imagen": "/public/images/css.png"
+                    "imagen": "/images/css.png"
                 },
                 {
                     "nombre": "JavaScript",
-                    "imagen": "/public/images/js.png"
+                    "imagen": "/images/js.png"
                 }
             ],
             "back": [
                 {
                     "nombre": "Node.js",
-                    "imagen": "/public/images/node.png"
+                    "imagen": "/images/node.png"
                 },
                 {
                     "nombre": "Express",
-                    "imagen": "/public/images/express.png"
+                    "imagen": "/images/express.png"
                 },
                 {
                     "nombre": "MongoDB",
-                    "imagen": "/public/images/mongo.png"
+                    "imagen": "/images/mongo.png"
                 }
             ],
             "tools": [
                 {
                     "nombre": "Git",
-                    "imagen": "/public/images/git.png"
+                    "imagen": "/images/git.png"
                 }
             ]
         }
@@ -47,7 +47,7 @@
     {
         "id":2,
         "Nombre": "Subaaton",
-        "imagen":"/public/images/subaaton.png",
+        "imagen":"/images/subaaton.png",
         "linkRepo": "https://github.com/maxiluma18/ProyectoFinal-Reactjs",
         "linkPag": "https://subaaton.vercel.app/",
         "descripcion": "Un sitio web que simula un E-Commerce, con agregación de productos al carrito y su compra simulada",
@@ -55,31 +55,31 @@
             "front": [
                 {
                     "nombre": "React",
-                    "imagen": "/public/images/react.svg"
+                    "imagen": "/images/react.svg"
                 },
                 {
                     "nombre": "CSS",
-                    "imagen": "/public/images/css.png"
+                    "imagen": "/images/css.png"
                 }
             ],
             "back": [
                 {
                     "nombre": "Node.js",
-                    "imagen": "/public/images/node.png"
+                    "imagen": "/images/node.png"
                 },
                 {
                     "nombre": "Firebase",
-                    "imagen": "/public/images/firebase.png"
+                    "imagen": "/images/firebase.png"
                 }
             ],
             "tools": [
                 {
                     "nombre": "Git",
-                    "imagen": "/public/images/git.png"
+                    "imagen": "/images/git.png"
                 },
                 {
                     "nombre": "Vite",
-                    "imagen": "/public/images/vite.png"
+                    "imagen": "/images/vite.png"
                 }
             ]
         }
@@ -87,7 +87,7 @@
     {
         "id":3,
         "Nombre": "Bondijet",
-        "imagen":"/public/images/bondijet.png",
+        "imagen":"/images/bondijet.png",
         "linkPag" : "#",
         "linkRepo": "https://github.com/maxiluma18/Proyecto-Programacion-2",
         "descripcion": "Proyecto hecho en la universidad, simula la gestión de aeropuertos, vuelos, clientes y pasajes. Aprovechando conceptos como herencia, polimorfismo, clases y métodos abstractos",
@@ -95,17 +95,17 @@
             "back": [
                 {
                     "nombre": "Java",
-                    "imagen": "/public/images/java.png"
+                    "imagen": "/images/java.png"
                 }
             ],
             "tools": [
                 {
                     "nombre": "Git",
-                    "imagen": "/public/images/git.png"
+                    "imagen": "/images/git.png"
                 },
                 {
                     "nombre": "Junit",
-                    "imagen": "/public/images/junit.png"
+                    "imagen": "/images/junit.png"
                 }
             ]
         }
@@ -113,7 +113,7 @@
     {
         "id":4,
         "Nombre": "Man City FC",
-        "imagen":"/public/images/mancity.jpg",
+        "imagen":"/images/mancity.jpg",
         "linkRepo": "https://github.com/maxiluma18/ProyectoFinal-DW",
         "linkPag": "https://man-city-fc.netlify.app/",
         "descripcion": "Sitio web que actúa como si fuera el sitio web del Man City, con apartados como partidos próximos, jugadores actuales y un formulario de contacto",
@@ -121,17 +121,17 @@
             "front": [
                 {
                     "nombre": "HTML",
-                    "imagen": "/public/images/html.png"
+                    "imagen": "/images/html.png"
                 },
                 {
                     "nombre": "SCSS",
-                    "imagen": "/public/images/scss.png"
+                    "imagen": "/images/scss.png"
                 }
             ],
             "tools": [
                 {
                     "nombre": "Git",
-                    "imagen": "/public/images/git.png"}
+                    "imagen": "/images/git.png"}
             ]
         }
     }
