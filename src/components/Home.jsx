@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css"; // Agrega estilos aquí
+import "./Home.css";
 import technologies from "../assets/tech.json";
 
 const Home = () => {

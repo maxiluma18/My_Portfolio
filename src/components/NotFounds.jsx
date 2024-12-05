@@ -1,6 +1,6 @@
 // NotFound.jsx
 import React from 'react';
-import './NotFound.css'; // Asegúrate de importar el CSS
+import './NotFound.css';
 
 const NotFound = () => {
     return (

@@ -70,3 +70,38 @@
 .tech-item:hover .tech-name {
     opacity: 1;
 }
+
+@media (max-width: 1250px) {
+    .about-me {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 2rem;
+    }
+
+    .about-me {
+        width: 90%;
+    }
+
+    .about-me p {
+        font-size: 1rem;
+    }
+
+    .tech-item {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-title {
+        font-size: 1.5rem;
+    }
+
+    .about-me p {
+        font-size: 0.95rem;
+    }
+}

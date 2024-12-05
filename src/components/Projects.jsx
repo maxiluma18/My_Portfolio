@@ -1,7 +1,7 @@
 // Projects.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import projectsData from '../assets/Projects.json'; // Asegúrate de importar tus datos
+import projectsData from '../assets/Projects.json';
 import './Projects.css';
 export const Projects = () => {
     return (

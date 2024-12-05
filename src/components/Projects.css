@@ -1,8 +1,7 @@
-/*! PROJECTS */
 .projects-container {
     padding: 20px;
     background-color: #0c0b0b;
-    height: 70vh;
+    height: auto;
 }
 
 .projects-list {
@@ -21,7 +20,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 70vh;
 }
 
 .project-image {
@@ -53,7 +51,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* Centrar los enlaces */
     width: 100%;
     margin-bottom: 10px;
 }
@@ -63,18 +60,14 @@
     text-decoration: none;
     font-weight: bold;
     margin: 0 5px;
-    /* Reducido el margen entre los enlaces */
     font-size: 1.2em;
-    /* Aumentado el tamaño del texto */
     display: flex;
     align-items: center;
-    /* Alinear verticalmente */
 }
 
 .project-link-text:hover {
     text-decoration: underline;
     transform: scale(1.1);
-    /* Efecto de zoom al pasar el mouse */
 }
 
 .project-technologies {
@@ -107,7 +100,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Asegura que el texto y la imagen estén centrados */
     margin: 10px 0;
     text-align: center;
 }
@@ -118,25 +110,18 @@
     margin-bottom: 5px;
 }
 
-
 .technology-image {
     width: 50px;
-    /* Asegúrate de que todas las imágenes tengan este tamaño */
     height: 50px;
     object-fit: contain;
     display: block;
-    /* Asegura que la imagen se comporte como un bloque */
     margin: 0 auto;
-    /* Centra la imagen horizontalmente */
 }
 
 .technology-image:hover {
     filter: brightness(1.2);
-    /* Aumenta el brillo al pasar el mouse */
     transform: scale(1.1);
-    /* Efecto de zoom al pasar el mouse */
     transition: filter 0.3s, transform 0.3s;
-    /* Transición suave */
 }
 
 .frontend-technologies,
@@ -156,22 +141,57 @@
 
 .frontend-title {
     color: #007f00;
-    /* Un verde más oscuro para el título de frontend */
 }
 
 .backend-title {
     color: #ffcc00;
-    /* Un amarillo más brillante para el título de backend */
 }
 
 .project-link-text img {
     margin-left: 5px;
     transition: filter 0.3s, transform 0.3s;
-    /* Transición suave para el hover */
 }
 
 .project-link-text:hover img {
     filter: brightness(0) saturate(100%) invert(36%) sepia(100%) saturate(0%) hue-rotate(90deg) brightness(150%) contrast(100%);
     transform: scale(1.1);
-    /* Efecto de zoom en el logo al pasar el mouse */
+}
+
+@media (max-width: 768px) {
+    .projects-list {
+        grid-template-columns: 1fr;
+    }
+
+    .project-name {
+        font-size: 1.5em;
+    }
+
+    .project-description {
+        font-size: 1.2em;
+    }
+
+    .project-link-text {
+        font-size: 1em;
+    }
+
+    .container-tech {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-name {
+        font-size: 1.2em;
+
+    }
+
+    .project-description {
+        font-size: 1em;
+    }
+
+    .container-tech-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
