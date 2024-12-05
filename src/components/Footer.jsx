@@ -13,7 +13,7 @@ export const Footer = () => {
                     </li>
                 ))}
                 <li>
-                    <a href="/src/assets/Maximiliano Lucas Martinez - CV.pdf" download className="nav-item">CV</a>
+                    <a href="/Maximiliano Lucas Martinez - CV.pdf" download className="nav-item">CV</a>
                 </li>
             </ul>
             <p>&quot;La confianza transforma las inseguridades en fortalezas&quot;</p>
