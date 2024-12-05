@@ -5,7 +5,7 @@ export const Nav = () => {
     return (
         <nav className="navbar">
             <a href="/" className="logo">
-                <img src="/src/images/MM.png" alt="LOGO MM" />
+                <img src="/public/images/MM.png" alt="LOGO MM" />
             </a>
             <ul className="nav-links">
                 <li><NavLink to="projects" className="nav-item" activeClassName="active">Proyectos</NavLink></li>
