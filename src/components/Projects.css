@@ -1,0 +1,177 @@
+/*! PROJECTS */
+.projects-container {
+    padding: 20px;
+    background-color: #000;
+    height: 70vh;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0 10%;
+}
+
+.project-item {
+    background-color: #000000;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}
+
+.project-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.project-image:hover {
+    transform: scale(1.05);
+}
+
+.project-name {
+    font-size: 2em;
+    color: #00bf63;
+    margin: 15px 0;
+}
+
+.project-description {
+    font-size: 1.2em;
+    color: #00bf63;
+    margin: 15px 0;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Centrar los enlaces */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.project-link-text {
+    color: #00bf63;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+    /* Reducido el margen entre los enlaces */
+    font-size: 1.2em;
+    /* Aumentado el tamaño del texto */
+    display: flex;
+    align-items: center;
+    /* Alinear verticalmente */
+}
+
+.project-link-text:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    /* Efecto de zoom al pasar el mouse */
+}
+
+.project-technologies {
+    margin-top: auto;
+    width: 100%;
+}
+
+.container-tech-flex {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.technologies-title {
+    font-size: 1.5em;
+    color: #00bf63;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container-tech {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.technology-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Asegura que el texto y la imagen estén centrados */
+    margin: 10px 0;
+    text-align: center;
+}
+
+.technology-name {
+    font-size: 1em;
+    color: #00bf63;
+    margin-bottom: 5px;
+}
+
+
+.technology-image {
+    width: 50px;
+    /* Asegúrate de que todas las imágenes tengan este tamaño */
+    height: 50px;
+    object-fit: contain;
+    display: block;
+    /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto;
+    /* Centra la imagen horizontalmente */
+}
+
+.technology-image:hover {
+    filter: brightness(1.2);
+    /* Aumenta el brillo al pasar el mouse */
+    transform: scale(1.1);
+    /* Efecto de zoom al pasar el mouse */
+    transition: filter 0.3s, transform 0.3s;
+    /* Transición suave */
+}
+
+.frontend-technologies,
+.backend-technologies,
+.herramientas {
+    margin-top: 10px;
+}
+
+.frontend-title,
+.backend-title,
+.herramientas-title {
+    font-size: 1.2em;
+    color: #00bf63;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.frontend-title {
+    color: #007f00;
+    /* Un verde más oscuro para el título de frontend */
+}
+
+.backend-title {
+    color: #ffcc00;
+    /* Un amarillo más brillante para el título de backend */
+}
+
+.project-link-text img {
+    margin-left: 5px;
+    transition: filter 0.3s, transform 0.3s;
+    /* Transición suave para el hover */
+}
+
+.project-link-text:hover img {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(100%) saturate(0%) hue-rotate(90deg) brightness(150%) contrast(100%);
+    transform: scale(1.1);
+    /* Efecto de zoom en el logo al pasar el mouse */
+}

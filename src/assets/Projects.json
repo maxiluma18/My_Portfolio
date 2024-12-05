@@ -1,0 +1,138 @@
+[
+    {
+        "id":1,
+        "Nombre": "HumanCare",
+        "imagen":"/src/images/inprocess.jpg",
+        "linkRepo": "https://github.com/SusanoJuicio/human-care-repo",
+        "linkRepoBK": "https://github.com/SusanoJuicio/humancare-backend",
+        "linkPag": "#",
+        "descripcion": "Un sitio web con diferentes apartados, como un MarketPlace, con sistema de donaciones y de rewards. Cuenta con 2 repositorios, uno de frontend y otro de backend",
+        "tecnologias": {
+            "front": [
+                {
+                    "nombre": "HTML",
+                    "imagen": "/src/images/html.png"
+                },
+                {
+                    "nombre": "CSS",
+                    "imagen": "/src/images/css.png"
+                },
+                {
+                    "nombre": "JavaScript",
+                    "imagen": "/src/images/js.png"
+                }
+            ],
+            "back": [
+                {
+                    "nombre": "Node.js",
+                    "imagen": "/src/images/node.png"
+                },
+                {
+                    "nombre": "Express",
+                    "imagen": "/src/images/express.png"
+                },
+                {
+                    "nombre": "MongoDB",
+                    "imagen": "/src/images/mongo.png"
+                }
+            ],
+            "tools": [
+                {
+                    "nombre": "Git",
+                    "imagen": "/src/images/git.png"
+                }
+            ]
+        }
+    },
+    {
+        "id":2,
+        "Nombre": "Subaaton",
+        "imagen":"/src/images/subaaton.png",
+        "linkRepo": "https://github.com/maxiluma18/ProyectoFinal-Reactjs",
+        "linkPag": "https://subaaton.vercel.app/",
+        "descripcion": "Un sitio web que simula un E-Commerce, con agregación de productos al carrito y su compra simulada",
+        "tecnologias": {
+            "front": [
+                {
+                    "nombre": "React",
+                    "imagen": "/src/images/react.svg"
+                },
+                {
+                    "nombre": "CSS",
+                    "imagen": "/src/images/css.png"
+                }
+            ],
+            "back": [
+                {
+                    "nombre": "Node.js",
+                    "imagen": "/src/images/node.png"
+                },
+                {
+                    "nombre": "Firebase",
+                    "imagen": "/src/images/firebase.png"
+                }
+            ],
+            "tools": [
+                {
+                    "nombre": "Git",
+                    "imagen": "/src/images/git.png"
+                },
+                {
+                    "nombre": "Vite",
+                    "imagen": "/src/images/vite.png"
+                }
+            ]
+        }
+    },
+    {
+        "id":3,
+        "Nombre": "Bondijet",
+        "imagen":"/src/images/bondijet.png",
+        "linkPag" : "#",
+        "linkRepo": "https://github.com/maxiluma18/Proyecto-Programacion-2",
+        "descripcion": "Proyecto hecho en la universidad, simula la gestión de aeropuertos, vuelos, clientes y pasajes. Aprovechando conceptos como herencia, polimorfismo, clases y métodos abstractos",
+        "tecnologias": {
+            "back": [
+                {
+                    "nombre": "Java",
+                    "imagen": "/src/images/java.png"
+                }
+            ],
+            "tools": [
+                {
+                    "nombre": "Git",
+                    "imagen": "/src/images/git.png"
+                },
+                {
+                    "nombre": "Junit",
+                    "imagen": "/src/images/junit.png"
+                }
+            ]
+        }
+    },
+    {
+        "id":4,
+        "Nombre": "Man City FC",
+        "imagen":"/src/images/mancity.jpg",
+        "linkRepo": "https://github.com/maxiluma18/ProyectoFinal-DW",
+        "linkPag": "https://man-city-fc.netlify.app/",
+        "descripcion": "Sitio web que actúa como si fuera el sitio web del Man City, con apartados como partidos próximos, jugadores actuales y un formulario de contacto",
+        "tecnologias": {
+            "front": [
+                {
+                    "nombre": "HTML",
+                    "imagen": "/src/images/html.png"
+                },
+                {
+                    "nombre": "SCSS",
+                    "imagen": "/src/images/scss.png"
+                }
+            ],
+            "tools": [
+                {
+                    "nombre": "Git",
+                    "imagen": "/src/images/git.png"}
+            ]
+        }
+    }
+]

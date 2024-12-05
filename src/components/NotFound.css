@@ -1,0 +1,46 @@
+/* NotFound.css */
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    /* Ocupa toda la altura de la ventana */
+    background-color: #000;
+    /* Fondo negro */
+    color: #00bf63;
+    /* Color del texto verde */
+    text-align: center;
+}
+
+.not-found-title {
+    font-size: 2.5em;
+    /* Tamaño más pequeño para el título */
+    color: #00bf63;
+    /* Color verde para el título */
+    margin: 0;
+}
+
+.not-found-subtitle {
+    font-size: 1.5em;
+    /* Tamaño más pequeño para el subtítulo */
+    color: #00bf63;
+    /* Color verde para el subtítulo */
+}
+
+.not-found-icon {
+    font-size: 3em;
+    /* Tamaño más pequeño para la X */
+    color: #00bf63;
+    /* Color verde para la X */
+    margin: 15px 0;
+    /* Espaciado alrededor de la X */
+}
+
+.not-found-message {
+    font-size: 1em;
+    /* Tamaño del mensaje más pequeño */
+    color: #00bf63;
+    /* Color verde para el mensaje */
+    margin-top: 10px;
+}
