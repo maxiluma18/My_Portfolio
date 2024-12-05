@@ -6,7 +6,6 @@ import ContactButton from './ContactButton';
 import './Contact.css';
 
 const ContactForm = () => {
-    const KEY = import.meta.env.VITE_FORMSPREE_KEY;
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -70,7 +69,7 @@ const ContactForm = () => {
             toast.error('Por favor, corrige los errores antes de enviar el formulario.');
             return;
         }
-        const response = await fetch(KEY, {
+        const response = await fetch(import.meta.env.VITE_FORMSPREE_KEY, {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
