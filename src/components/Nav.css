@@ -43,5 +43,6 @@
 
     .nav-links {
         flex-direction: column;
+        margin: 0;
     }
 }

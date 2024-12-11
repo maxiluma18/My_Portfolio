@@ -2,10 +2,10 @@
     {
         "id":1,
         "Nombre": "HumanCare",
-        "imagen":"/images/inprocess.jpg",
+        "imagen":"/images/humancare.png",
         "linkRepo": "https://github.com/SusanoJuicio/human-care-repo",
         "linkRepoBK": "https://github.com/SusanoJuicio/humancare-backend",
-        "linkPag": "#",
+        "linkPag": "https://humancarefishingfoundation.vercel.app",
         "descripcion": "Un sitio web con diferentes apartados, como un MarketPlace, con sistema de donaciones y de rewards. Cuenta con 2 repositorios, uno de frontend y otro de backend",
         "tecnologias": {
             "front": [

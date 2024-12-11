@@ -8,7 +8,7 @@ const Home = () => {
             <h1 className="home-title">DESARROLLADOR WEB FULL STACK</h1>
             <section className="about-me">
                 <p>
-                    Soy desarrollador web full stack apasionado por la tecnología y la creación de soluciones digitales.
+                    Apasionado por la tecnología y la creación de soluciones digitales.
                     Tengo experiencia en el desarrollo de aplicaciones utilizando tecnologías como React y Node.js,
                     lo que me permite trabajar tanto en el frontend como en el backend.
                     Me encanta enfrentar desafíos y aprender nuevas habilidades, buscando siempre mejorar mis capacidades
