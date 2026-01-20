@@ -11,5 +11,6 @@
     {"name":"Java", "logo":"/images/java.png"},
     {"name":"JUnit", "logo":"/images/junit.png"},
     { "name": "Firebase", "logo": "/images/firebase.png" },
-    { "name": "Git", "logo": "/images/git.png" }
+    { "name": "Git", "logo": "/images/git.png" },
+    { "name": "Assembly", "logo": "/images/asm.png" }
 ]

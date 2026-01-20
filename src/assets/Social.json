@@ -8,10 +8,5 @@
         "nombre":"Github",
         "link": "https://github.com/maxiluma18",
         "imagen":"/images/github.svg"
-    },
-    {
-        "nombre":"Instagram",
-        "link": "https://www.instagram.com/maxxi.martinezz/",
-        "imagen":"/images/instagram.svg"
     }
 ]

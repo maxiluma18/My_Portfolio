@@ -46,49 +46,9 @@
     },
     {
         "id":2,
-        "Nombre": "Subaaton",
-        "imagen":"/images/subaaton.png",
-        "linkRepo": "https://github.com/maxiluma18/ProyectoFinal-Reactjs",
-        "linkPag": "https://subaaton.vercel.app/",
-        "descripcion": "Un sitio web que simula un E-Commerce, con agregación de productos al carrito y su compra simulada",
-        "tecnologias": {
-            "front": [
-                {
-                    "nombre": "React",
-                    "imagen": "/images/react.svg"
-                },
-                {
-                    "nombre": "CSS",
-                    "imagen": "/images/css.png"
-                }
-            ],
-            "back": [
-                {
-                    "nombre": "Node.js",
-                    "imagen": "/images/node.png"
-                },
-                {
-                    "nombre": "Firebase",
-                    "imagen": "/images/firebase.png"
-                }
-            ],
-            "tools": [
-                {
-                    "nombre": "Git",
-                    "imagen": "/images/git.png"
-                },
-                {
-                    "nombre": "Vite",
-                    "imagen": "/images/vite.png"
-                }
-            ]
-        }
-    },
-    {
-        "id":3,
         "Nombre": "Bondijet",
         "imagen":"/images/bondijet.png",
-        "linkPag" : "#",
+        "linkPag" : "https://github.com/maxiluma18/Proyecto-Programacion-2",
         "linkRepo": "https://github.com/maxiluma18/Proyecto-Programacion-2",
         "descripcion": "Proyecto hecho en la universidad, simula la gestión de aeropuertos, vuelos, clientes y pasajes. Aprovechando conceptos como herencia, polimorfismo, clases y métodos abstractos",
         "tecnologias": {
@@ -111,7 +71,95 @@
         }
     },
     {
+        "id":3,
+        "Nombre": "Histeria",
+        "imagen":"/images/histeria.png",
+        "linkPag" : "https://github.com/maxiluma18/tp-1-progra3",
+        "linkRepo": "https://github.com/maxiluma18/tp-1-progra3",
+        "descripcion": "Histeria es un juego de lógica y memoria desarrollado en Java. El objetivo es resolver un puzzle visual mediante el movimiento estratégico de piezas en una cuadrícula. Este proyecto pone en práctica conceptos avanzados de Programación Orientada a Objetos (POO) y el desarrollo de interfaces gráficas de usuario (GUI).",
+        "tecnologias": {
+            "back": [
+                {
+                    "nombre": "Java",
+                    "imagen": "/images/java.png"
+                }
+            ],
+            "tools": [
+                {
+                    "nombre": "Git",
+                    "imagen": "/images/git.png"
+                }
+            ]
+        }
+    },
+    {
         "id":4,
+        "Nombre": "Parque Nacional",
+        "imagen":"/images/parquenacional.png",
+        "linkPag" : "https://github.com/maxiluma18/tp-2-progra3",
+        "linkRepo": "https://github.com/maxiluma18/tp-2-progra3",
+        "descripcion": "Este proyecto es una herramienta de visualización y optimización de redes basada en Teoría de Grafos. El objetivo principal es encontrar el Árbol Generador Mínimo (AGM) para conectar diferentes puntos estratégicos (localidades) de un mapa con el menor costo posible, utilizando algoritmos clásicos de ciencias de la computación.",
+        "tecnologias": {
+            "back": [
+                {
+                    "nombre": "Java",
+                    "imagen": "/images/java.png"
+                }
+            ],
+            "tools": [
+                {
+                    "nombre": "Git",
+                    "imagen": "/images/git.png"
+                }
+            ]
+        }
+    },
+    {
+        "id":5,
+        "Nombre": "Robot Pathfinding",
+        "imagen":"/images/robot.png",
+        "linkPag" : "https://github.com/maxiluma18/tp-3-progra3",
+        "linkRepo": "https://github.com/maxiluma18/tp-3-progra3",
+        "descripcion": "Este proyecto es un laboratorio de algoritmos diseñado para resolver problemas de optimización de rutas. El sistema calcula el camino más eficiente para un robot en un tablero de N X M, comparando el rendimiento real entre algoritmos de Backtracking y Fuerza Bruta.",
+        "tecnologias": {
+            "back": [
+                {
+                    "nombre": "Java",
+                    "imagen": "/images/java.png"
+                }
+            ],
+            "tools": [
+                {
+                    "nombre": "Git",
+                    "imagen": "/images/git.png"
+                }
+            ]
+        }
+    },
+    {
+        "id":6,
+        "Nombre": "Buscaminas en ASM",
+        "imagen":"/images/buscaminas.asm.png",
+        "linkPag" : "https://github.com/maxiluma18/Buscaminas-in-ASM",
+        "linkRepo": "https://github.com/maxiluma18/Buscaminas-in-ASM",
+        "descripcion": "Un juego de Buscaminas clásico desarrollado íntegramente en lenguaje ensamblador, diseñado para ejecutarse en entornos Linux a través de la consola. Este proyecto demuestra habilidades de programación de bajo nivel, gestión de memoria y lógica algorítmica pura.",
+        "tecnologias": {
+            "back": [
+                {
+                    "nombre": "ASM",
+                    "imagen": "/images/asm.png"
+                }
+            ],
+            "tools": [
+                {
+                    "nombre": "Git",
+                    "imagen": "/images/git.png"
+                }
+            ]
+        }
+    },
+    {
+        "id":7,
         "Nombre": "Man City FC",
         "imagen":"/images/mancity.jpg",
         "linkRepo": "https://github.com/maxiluma18/ProyectoFinal-DW",
